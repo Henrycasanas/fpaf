@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<title>Aplicación sin título</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="Aplicación sin título" />
+<meta name="generator" content="VisualNEO Web (19.9.16)" />
+<meta name="date" content="2020-08-06 17:49" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/nzAnimate.min.css">
+<link rel="stylesheet" href="css/neoapp-ui.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="ng-app" ng-app="NeoApp" ng-cloak>
+<div ng-controller="NeoApp_CoreCtrl" ng-view ng-cloak id="ng-view" class="app-viewport[NAB._pageEffect]"></div>
+<script type="text/ng-template" id="NewPage">
+<div id="NewPage">
+<progressbar id="ProgressBar1" class="[NAB.ProgressBar1_effect]" max="100" ng-style="NAB.ProgressBar1_style" ng-hide="NAB.ProgressBar1_hidden" ng-disabled="NAB.ProgressBar1_disabled"></progressbar>
+<slider id="Slider1" class="neoapp-slider [NAB.Slider1_effect]" kind="default" min="0" max="100" ng-hide="NAB.Slider1_hidden" ng-disabled="NAB.Slider1_disabled"></slider>
+<button id="PushButton1" type="button"  class="btn btn-default [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled"></button>
+</div>
+</script>
+<script type="text/ng-template" id="NewDialog">
+<div id="DialogContainer1" class="modal-dialog modal-sm"><div class="modal-content" style="height:100%">
+</div></div>
+</script>
+<script src="js/jquery.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-touch.min.js"></script>
+<script src="js/angular-route.min.js"></script>
+<script src="js/angular-animate.min.js"></script>
+<script src="js/angular-sanitize.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/neoapp.min.js"></script>
+<script src="js/neoapp-ui.min.js"></script>
+<script src="phonegap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
